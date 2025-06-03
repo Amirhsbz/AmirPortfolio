@@ -268,3 +268,62 @@ body {
 .exp-details li {
   margin-bottom: 0.5rem; /* Adjust the value as needed */
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .left {
+    flex: none;
+    margin-bottom: 1rem;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .right {
+    flex: none;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .experience-page .right {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 2rem auto;
+  }
+
+  .education-page,
+  .experience-page {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .exp-header h3,
+  .exp-header p,
+  .exp-details li {
+    font-size: 1.1rem;
+  }
+}
