@@ -257,7 +257,7 @@ body {
 
 /* List of experience details */
 .exp-details {
-  list-style-type: none;
+  list-style-type: disc;
   padding-left: 0rem;
   margin-top: 0.3rem;
   color: #555;
